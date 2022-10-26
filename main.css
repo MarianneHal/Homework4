@@ -1,0 +1,41 @@
+.a {
+    width: 1000px;
+    height: 300px;
+    background-color: silver;
+    margin: 20px;
+}
+.bc {
+    display: flex;
+}
+.b {
+    width: 680px;
+    height: 600px;
+    background-color: silver;
+    margin-left: 20px;
+}
+.c {
+    width: 300px;
+    height: 600px;
+    background-color: silver;
+    margin-left: 20px;
+}
+@media screen and (min-width: 0) and (max-width: 900px) {
+    .a {
+        width: 90%;
+        height: 100px;
+    }
+    .bc {
+        display: block;
+    }
+
+    .b {
+        width: 90%;
+        margin-bottom: 20px;
+        height: 300px;
+    }
+    .c {
+        width: 90%;
+        height: 100px;
+    }
+
+}
